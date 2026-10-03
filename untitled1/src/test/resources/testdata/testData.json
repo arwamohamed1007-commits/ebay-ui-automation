@@ -1,0 +1,31 @@
+{
+  "browser": {
+    "name": "msedge",
+    "args": ["--start-maximized", "--disable-blink-features=AutomationControlled"],
+    "headless": false,
+    "slowMoMs": 300,
+    "defaultTimeoutMs": 30000,
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "recordVideo": true,
+    "videoDir": "target/videos"
+  },
+  "reporting": {
+    "screenRecording": true,
+    "screenRecordingDir": "recordings",
+    "stepScreenshots": true
+  },
+  "shipTo": {
+    "country": "United States",
+    "postalCode": "10001"
+  },
+  "home": {
+    "url": "https://www.ebay.com/",
+    "expectedLogoTitle": "eBay Home"
+  },
+  "search": {
+    "searchTerm": "mazda mx-5",
+    "filterGroup": "Transmission",
+    "filterOption": "Manual"
+  }
+}

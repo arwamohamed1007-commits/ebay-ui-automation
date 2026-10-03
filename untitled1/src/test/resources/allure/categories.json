@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Results don't match the search or filter",
+    "matchedStatuses": ["failed"],
+    "messageRegex": "(?s).*result\\(s\\) don't show.*"
+  },
+  {
+    "name": "Assertion failures",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "Element not found / timeouts",
+    "matchedStatuses": ["broken"],
+    "traceRegex": "(?s).*TimeoutError.*"
+  },
+  {
+    "name": "Broken tests (unexpected errors)",
+    "matchedStatuses": ["broken"]
+  }
+]
